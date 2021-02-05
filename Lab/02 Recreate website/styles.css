@@ -1,0 +1,45 @@
+body{
+  margin:0;
+}
+
+nav{
+  display:flex;
+  background-color: black;
+  flex-direction:column;
+  flex-basis: : 15vw;
+  flex-shrink: 0;
+
+}
+nav a{
+  color: White;
+  padding: 0.25em 0.5em;
+  text-decoration: none;
+  transition: background-color 0.5s;
+}
+
+nav a:hover{
+  background-color: grey;
+}
+nav,main{
+  box-sizing: border-box;
+}
+
+header,section{
+  text-align: center;
+  padding: 0 0.5em;
+}
+section{
+  background-color: grey;
+  overflow:auto;
+}
+header{
+  background-color: green;
+
+}
+main{
+  display:flex;
+  flex-direction: row-reverse;
+}
+header,section,main{
+  overflow: auto;
+}
